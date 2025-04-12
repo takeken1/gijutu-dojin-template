@@ -25,7 +25,7 @@ fi
 echo "Markdownファイルを変換しています..."
 for md_file in ./src/chapters/*.md; do
   echo "変換中: $md_file"
-  npx md-to-pdf "$md_file"
+  npx md-to-pdf "$md_file" --config-file config.json
 done
 
 # 変換したPDFをtmpディレクトリに移動

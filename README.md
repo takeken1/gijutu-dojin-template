@@ -75,6 +75,8 @@ VERSION=1.1 ./build.sh
 ## カスタマイズ
 
 - `build.sh` の `BOOK_TITLE` 変数を変更して、出力するPDFファイル名を変更できます
+- `custom.css` を編集して、フォントサイズやスタイルを変更できます
+  - 例：`body { font-size: 18px !important; }` とすることでフォントサイズを18pxに変更可能です
 - md-to-pdfの詳細なオプションは[公式ドキュメント](https://github.com/simonhaenisch/md-to-pdf)を参照してください
 
 ## ライセンス
